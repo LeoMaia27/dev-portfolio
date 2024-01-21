@@ -1,0 +1,68 @@
+.mainHeader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    column-gap: 2rem;
+}
+
+.headerContent {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.mainPhoto {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.title {
+    text-align: center;
+}
+
+.headerInformation {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: .5rem;
+    align-items: flex-start;
+    /* margin: .5rem; */
+}
+
+.headerInformation p {
+    display: flex;
+    align-items: center;
+}
+
+.headerInformation p::before {
+    content: '';
+    margin-right: .5rem;
+    width: 1rem;
+    height: 1rem;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.headerInformation .job::before {
+    background-image: url(../img/icons/job.svg);
+}
+
+.headerInformation .location::before {
+    background-image: url(../img/icons/location.svg);
+}
+
+.headerInformation .phone::before {
+    background-image: url(../img/icons/phone.svg);
+}
+
+.headerInformation .email::before {
+    background-image: url(../img/icons/email.svg);
+}
+
+@media screen and (min-width: 700px) {
+    .mainHeader {
+        flex-direction: row;
+    }
+}

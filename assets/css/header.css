@@ -4,6 +4,8 @@
     justify-content: center;
     align-items: center;
     column-gap: 2rem;
+
+    margin-bottom: 1rem;
 }
 
 .headerContent {
@@ -59,6 +61,15 @@
 
 .headerInformation .email::before {
     background-image: url(../img/icons/email.svg);
+}
+
+.email a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.email a:hover {
+    text-decoration: underline;
 }
 
 @media screen and (min-width: 700px) {

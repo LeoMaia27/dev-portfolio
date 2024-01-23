@@ -1,0 +1,21 @@
+.languages {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.languages li {
+    font-weight: 700;
+}
+
+.languages li::before {
+    content: "";
+    width: 1rem;
+    height: 1rem;
+    margin-right: .5rem; /*espaço entre icon e texto*/
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(../img/icons/check.svg);
+}

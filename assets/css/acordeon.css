@@ -56,4 +56,30 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-image: url(../img/icons/arrow-top.svg);
+
+    transition: .2s;
+}
+
+@media screen and (min-width: 700px) {
+    .acordeon {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+    }
+
+    .trigger {
+        grid-column: 1 / 4;
+        grid-row: 1;
+    }
+
+    .content {
+        grid-template-columns: 1 / 2;
+    }
+
+    /* .languages {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    } */
 }

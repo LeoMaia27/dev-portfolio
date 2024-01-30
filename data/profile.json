@@ -1,12 +1,16 @@
 {
     "name": "Leonardo",
-    "photo": "https://avatars.githubusercontent.com/u/128646957?s=400&u=1678d8195dbcd41f2d06a69b8afee2a595b22f3a&v=4",
+    "photo": "https://media.licdn.com/dms/image/D4D03AQHBnznZFbqzeA/profile-displayphoto-shrink_400_400/0/1688779819137?e=1712188800&v=beta&t=wQwbXnaMhjIrwlN9_xQwQ8FmEsSvP5qNwwsQyat5Qfs",
     "job": "Estagiário em Administração Pública",
     "location": "Nova Iguaçu - RJ",
     "phone": "(21) 98159-7656",
     "email": "leonardo@gmail.com",
     "skills": {
       "hardSkills": [
+        {
+          "name": "JavaScript",
+          "logo": "https://raw.githubusercontent.com/RenanJPaula/js-developer-portfolio/main/data/imgs/js.png"
+        },
         {
           "name": "Nodejs",
           "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/nodejs.png"
@@ -19,9 +23,7 @@
       "softSkills": [
         "Empatia",
         "Liderança",
-        "Trabalho em equipe",
-        "Flexibilidade",
-        "Organização"
+        "Trabalho em equipe"
       ]
     },
     "languages": [

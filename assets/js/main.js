@@ -20,10 +20,18 @@ function updateProfileInformation(profileData) { //manipular html
     profileEmail.href = href=`mailto:${profileData.email}`;
 }
 
+function updateSoftSkills(profileData) {
+    const softSkills = document.getElementById('profile.skills.softSkills');
+
+    softSkills.innerHtml = profileData.skills.softSkills.map((skill) => {
+        `<li>${skill}</li>`
+    }).join('');
+}
+
 async function main() {
     const profileData = await fetchProfileData();
     console.log(profileData);
-    return profileData;
+    updateProfileInformation(profileData);
 }
 
 main();

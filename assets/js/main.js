@@ -1,5 +1,5 @@
 function updateProfileInformation(profileData) { //manipular html
-    const profilePhoto = document.getElementById('profile.name');
+    const profilePhoto = document.getElementById('profile.photo');
     profilePhoto.src = profileData.photo;
     profilePhoto.alt = profileData.name;
 
@@ -23,17 +23,19 @@ function updateProfileInformation(profileData) { //manipular html
 function updateSoftSkills(profileData) {
     const softSkills = document.getElementById('profile.skills.softSkills');
 
-    softSkills.innerHtml = profileData.skills.softSkills.map((skill) => {
-        return `<li>${skill}</li>`
-    }).join('');
+    softSkills.innerHTML = profileData.skills.softSkills.map((skill) => `<li>${skill}</li>`).join('');
 }
 
 function updateHardSkills(profileData) {
     const hardSkills = document.getElementById('profile.skills.hardSkills');
 
-    hardSkills.innerHTML = profileData.skills.hardSkills.map((skill) => {
-        return `<li><img src="${skill.logo}" alt="${skill.name}"></li>`
-    }).join('');
+    hardSkills.innerHTML = profileData.skills.hardSkills.map((skill) => `<li><img src="${skill.logo}" alt="${skill.name}"></li>`).join('');
+}
+
+function updateLanguages(profileData) {
+    const languages = document.getElementById('languages');
+
+    languages.innerText = profileData.languages.map((language) => `<li>${language}</li>`);
 }
 
 async function main() {

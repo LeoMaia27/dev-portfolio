@@ -33,6 +33,7 @@
 
 .professionalTools {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     column-gap: 1.2rem;

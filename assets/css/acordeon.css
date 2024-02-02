@@ -18,6 +18,7 @@
 
 .acordeon .content ul {
     list-style: none;
+    word-wrap: break-word;
 }
 
 .acordeon .content {

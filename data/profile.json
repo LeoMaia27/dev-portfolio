@@ -3,8 +3,8 @@
     "photo": "https://media.licdn.com/dms/image/D4D03AQHBnznZFbqzeA/profile-displayphoto-shrink_400_400/0/1688779819137?e=1712188800&v=beta&t=wQwbXnaMhjIrwlN9_xQwQ8FmEsSvP5qNwwsQyat5Qfs",
     "job": "Estagiário em Administração Pública",
     "location": "Nova Iguaçu - RJ",
-    "phone": "(21) 98159-7656",
-    "email": "leonardo@gmail.com",
+    "phone": "(21) 99999-9999",
+    "email": "leonardoam@gmail.com",
     "skills": {
       "hardSkills": [
         {
@@ -22,13 +22,13 @@
       ],
       "softSkills": [
         "Empatia",
-        "Liderança",
+        "Agilidade",
         "Trabalho em equipe"
       ]
     },
     "languages": [
       "Português BR",
-      "Inglês (intermediário)"
+      "Inglês (Básico)"
     ],
     "portfolio": [
       {
@@ -39,7 +39,7 @@
     ],
     "professionalExperience": [
       {
-        "name": "Estágio em Administração - PMNI",
+        "name": "Estágio em Administração - Prefeitura de Nova Iguaçu",
         "period": "2023 - até o momento",
         "description": "É um prazer poder adquirir tanto conhecimento."
       }
